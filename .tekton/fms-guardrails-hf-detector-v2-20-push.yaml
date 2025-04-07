@@ -11,13 +11,13 @@ metadata:
     pipelinesascode.tekton.dev/on-cel-expression: |
       event == "push"
       && target_branch == "rhoai-2.20"
-      && ( !".tekton/**".pathChanged() || ".tekton/fms-guardrails-hf-detectors-v2-20-push.yaml".pathChanged() )
+      && ( !".tekton/**".pathChanged() || ".tekton/fms-guardrails-hf-detector-v2-20-push.yaml".pathChanged() )
   creationTimestamp: null
   labels:
     appstudio.openshift.io/application: external-rhoai-v2-20
-    appstudio.openshift.io/component: fms-guardrails-hf-detectors-v2-20
+    appstudio.openshift.io/component: fms-guardrails-hf-detector-v2-20
     pipelines.appstudio.openshift.io/type: build
-  name: fms-guardrails-hf-detectors-v2-20-on-push
+  name: fms-guardrails-hf-detector-v2-20-on-push
   namespace: rhoai-tenant
 spec:
   params:
