@@ -15,7 +15,7 @@ metadata:
   creationTimestamp: null
   labels:
     appstudio.openshift.io/application: external-rhoai-v2-21
-    appstudio.openshift.io/component: fms-guardrails-hf-detectors-v2-21
+    appstudio.openshift.io/component: fms-guardrails-hf-detector-v2-21
     pipelines.appstudio.openshift.io/type: build
   name: fms-guardrails-hf-detectors-v2-21-on-push
   namespace: rhoai-tenant
